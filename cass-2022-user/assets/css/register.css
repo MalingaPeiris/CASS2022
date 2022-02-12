@@ -11,6 +11,7 @@
   width: 100%;
   padding: 20px;
   border-radius: 10px;
+  border: 2px solid #004065 ;
 }
 
 .register-image-div {
@@ -31,8 +32,10 @@
 .register-heading {
   color: #004065;
   text-align: center;
-  font-size: 30px;
+  font-size: 24px;
   margin: 0px;
+  font-weight: bold;
+  font-family: Lato, sans-serif;
 }
 
 .form-sub-div {
@@ -71,17 +74,23 @@
 
 .register-event-heading {
   text-align: center;
-  font-size: 16px;
+  font-size: 28px;
+  font-weight: bold;
+  color: rgb(0,0,0);
 }
 
 .register-hr {
   width: 100%;
   margin-top: 0px;
   margin-bottom: 20px;
+  color: #2fa7b4;
 }
 
 .register-para {
   margin: 0px;
+  color: #2fa7b4;
+  font-size: 14px;
+  font-family: Poppins, sans-serif;
 }
 
 .register-row {
@@ -109,8 +118,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .register-input {
@@ -144,6 +153,9 @@
 .register-segment-para {
   width: 220px;
   padding-right: 5px;
+  font-weight: bold;
+  color: #004065;
+  font-family: Lato, sans-serif;
 }
 
 .terms-and-conditions-div {
@@ -152,5 +164,16 @@
 }
 
 .term-para {
+}
+
+input {
+}
+
+#type {
+  border-color: #2fa7b4;
+}
+
+#title {
+  border-color: #2fa7b4;
 }
 

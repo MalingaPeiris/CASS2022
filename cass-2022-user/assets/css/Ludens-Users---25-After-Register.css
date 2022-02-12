@@ -25,6 +25,10 @@ input[type="text"], input[type="email"], input[type="tel"], textarea {
 
 input[type="text"], input[type="email"], input[type="tel"], textarea {
   border-radius: 8px !important;
+  border-color: #2fa7b4;
+  font-weight: bold;
+  font-family: Lato, sans-serif;
+  color: #2fa7b4;
 }
 
 .btn-primary:hover {
