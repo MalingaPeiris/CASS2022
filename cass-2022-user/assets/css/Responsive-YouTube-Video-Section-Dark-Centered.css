@@ -1,0 +1,131 @@
+.clean-block.dark {
+  background-color: #222425;
+}
+
+.clean-block {
+  background-color: #222425;
+}
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  cursor: not-allowed;
+}
+
+.ytHeading {
+  font-size: 20px;
+  color: rgb(255,255,255);
+  font-weight: normal;
+  text-align: left;
+  font-family: Poppins, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.ytDiscriptionBlock {
+  max-width: 1920px;
+  min-width: 320px;
+  width: 100%;
+  background: #004065;
+}
+
+.ytControlButton {
+  color: #ffffff;
+  background: rgba(97,89,92,0);
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .ytControlButton {
+    color: #ffffff;
+    background: rgba(97,89,92,0);
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transform: scale(0.75);
+  }
+}
+
+.ytControlButton:hover {
+  color: #2fa7b4;
+  background: rgba(255,255,255,0);
+  border: 2px solid #2fa7b4;
+  border-radius: 5px;
+}
+
+.fa.fa-play {
+  line-height: 20px;
+}
+
+.fa.fa-pause {
+  line-height: 20px;
+}
+
+.fa.fa-close {
+  line-height: 20px;
+}
+
+.ytControlCol2 {
+}
+
+.ytFeedBackButton {
+  color: #ffffff;
+  background: rgba(97,89,92,0);
+  border: 2px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+  .ytFeedBackButton {
+    color: #ffffff;
+    background: rgba(97,89,92,0);
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    transform: scale(0.75);
+  }
+}
+
+.ytFeedBackButton:hover {
+  color: #2fa7b4;
+  background: rgba(255,255,255,0);
+  border: 2px solid #2fa7b4;
+  border-radius: 5px;
+}
+
+.ytFeedBackSupportPara {
+  color: #2fa7b4;
+  font-family: Poppins, sans-serif;
+}
+
+.ytFeedBackSupportMainPara {
+  color: #2fa7b4;
+}
+
+.fa-comment {
+  font-size: 24px;
+}
+
+#ytResources {
+  margin-left: 20px;
+}
+

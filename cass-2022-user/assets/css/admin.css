@@ -1,0 +1,156 @@
+.admin-body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.admin-logo {
+  height: 100px;
+  border-radius: 10px;
+}
+
+.admin-container {
+  position: relative;
+  width: 100%;
+}
+
+.admin-navigation {
+  position: fixed;
+  width: 300px;
+  height: 100%;
+  background: linear-gradient(#004065 32%, #2fa7b4 100%), rgba(0,64,101,0.45);
+  border-left: 10px solid #004065;
+  transition: 0.5s;
+  overflow: hidden;
+}
+
+.admin-navigation .active {
+  width: 60px;
+}
+
+.admin-navigation ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.admin-navigation ul li {
+  position: relative;
+  width: 100%;
+  list-style: none;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.admin-navigation ul li:hover {
+  background: #fff;
+}
+
+.admin-navigation ul li:nth-child(1) {
+  margin-bottom: 40px;
+  pointer-events: none;
+}
+
+.admin-navigation ul li a {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+
+.admin-navigation ul li:hover a {
+  color: #004065;
+}
+
+.admin-navigation ul li a .admin-icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.admin-navigation ul li a .admin-icon fa {
+  font-size: 1.75em;
+}
+
+.admin-navigation ul li a .admin-title {
+  position: relative;
+  display: block;
+  padding: 0 10px;
+  height: 60px;
+  line-height: 60px;
+  text-align: start;
+  white-space: nowrap;
+}
+
+.admin-navigation ul li:hover a::before {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: -50px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 35px 35px 0 10px #fff;
+  pointer-events: none;
+}
+
+.admin-navigation ul li:hover a::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -50px;
+  width: 50px;
+  height: 50px;
+  background: transparent;
+  border-radius: 50%;
+  box-shadow: 35px -35px 0 10px #fff;
+  pointer-events: none;
+}
+
+.admin-logo-li {
+  margin-top: 20px;
+  height: 100%;
+  padding-bottom: 20px;
+}
+
+.admin-main {
+  position: absolute;
+  width: calc(100% - 300px);
+  left: 300px;
+  min-height: 100vh;
+  background: #fff;
+  transition: 0.5s;
+}
+
+.admin-topbar {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.admin-user-image {
+  height: 40px;
+  border-radius: 50px;
+}
+
+.admin-toggle {
+  position: relative;
+  top: 0;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5em;
+  cursor: pointer;
+}
+

@@ -1,0 +1,181 @@
+.investmentHeading {
+  color: #63595c;
+  font-size: 50px;
+}
+
+.investmentContainer {
+  padding-top: 100px;
+}
+
+.investmentintroPara {
+  color: #868180;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  margin-bottom: 0px;
+}
+
+.investmentCategoryPara {
+  color: rgb(255,255,255);
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  background: #2fa7b4;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+}
+
+.investmentCategoryPara:hover {
+  color: rgb(255,255,255);
+  font-size: 20px;
+  font-family: Poppins, sans-serif;
+  background: #2fa7b4;
+  width: 100%;
+  height: 35px;
+  text-align: center;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+#investmentCategoryContainer1 {
+  padding-top: 0px;
+}
+
+#overseas {
+  background: #004065;
+}
+
+.investmentAmountDiv {
+  max-width: 100%;
+  width: 100%;
+  min-width: 100%;
+  height: 200px;
+  background: #f7f7f7;
+  border: 1px solid rgb(255,255,255) ;
+}
+
+.investmentAmountPara {
+  color: #63595c;
+  font-family: Montserrat, sans-serif;
+  font-weight: bold;
+  margin-bottom: 0px;
+  text-align: center;
+  font-size: 34px;
+}
+
+.investmentAmountDescPara {
+  color: #868180;
+  font-size: 18px;
+  font-family: Poppins, sans-serif;
+  margin-bottom: 10px;
+}
+
+#webcast {
+  font-size: 16px;
+  color: #004065;
+  margin-top: -10px;
+}
+
+.investmentCategoryDiv {
+  display: flex;
+  width: 100%;
+}
+
+@media (max-width: 576px) {
+  .investmentCategoryDiv {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.investmentLocalDiv {
+  width: 100%;
+}
+
+#localDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+#overseeaDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.investmentBlock {
+  margin-bottom: 200px;
+  margin-top: 100px;
+}
+
+.investmentRegCol {
+  background: repeating-linear-gradient(-43deg, #2fa7b4 -322%, #004065 -159%, rgb(255,255,255), #004065, #2fa7b4);
+  padding: 3%;
+  border-radius: 5px;
+  opacity: 1;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  position: relative;
+  background-size: 200%;
+  animation: change 0.1s infinite alternate;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+#investmentCalHeading {
+  color: #004065;
+}
+
+@media (max-width: 576px) {
+  #investmentCalHeading {
+    color: #004065;
+    font-size: 24px;
+  }
+}
+
+.fa.fa-calendar {
+  color: #2fa7b4;
+  font-size: 36px;
+}
+
+.calendarCol {
+  padding: 20px;
+}
+
+.calDiv {
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 8px 13px 25px #D9D9D982;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+}
+
+.calDiv:hover {
+  padding: 30px;
+  background: rgba(65,187,24,0.3);
+  box-shadow: 8px 13px 25px #D9D9D982;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+}
+
+.calDIvMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #2fa7b4;
+}
+
+#investmentRegHr {
+  width: 80%;
+}
+
