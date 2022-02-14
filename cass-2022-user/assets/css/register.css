@@ -72,11 +72,22 @@
   font-size: 15px;
 }
 
-.register-event-heading {
-  text-align: center;
-  font-size: 28px;
-  font-weight: bold;
-  color: rgb(0,0,0);
+@media (max-width: 540px) {
+  .register-event-heading {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0,0,0);
+  }
+}
+
+@media (min-width: 540px) {
+  .register-event-heading {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    color: rgb(0,0,0);
+  }
 }
 
 .register-hr {
@@ -175,5 +186,9 @@ input {
 
 #title {
   border-color: #2fa7b4;
+}
+
+.register-input-2 {
+  width: 45%;
 }
 

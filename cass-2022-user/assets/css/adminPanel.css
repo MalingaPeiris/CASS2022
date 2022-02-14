@@ -7,7 +7,7 @@
   color: #212529;
   text-align: left;
   background-color: #fff;
-  background-image: url(../../assets/img/adminPanelBackground.jpg);
+  background-image: url(adminPanelBackground.jpg);
 }
 
 @media (max-width: 768px) {

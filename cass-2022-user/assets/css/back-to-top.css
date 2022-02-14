@@ -14,14 +14,14 @@
   transition-timing-function: ease-in-out;
   transition-property: background-color, color;
   box-shadow: 8px 13px 25px rgba(64,63,63,0.3);
-  z-index: 9999;
+  z-index: 11;
 }
 
 @media (max-width: 576px) {
   .bbt {
     width: 40px;
     height: 40px;
-    background-color: #216249;
+    background-color: #004065;
     border-radius: 50%;
     border: 2px solid #fff;
     position: fixed;

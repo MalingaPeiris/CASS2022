@@ -61,7 +61,7 @@
 .wave span:nth-child(4) {
   animation: animate 100s linear infinite;
   border-radius: 80%;
-  background: url(../../assets/img/background.jpg);
+  background: url(../../assets/img/0-background.webp);
   object-fit: contain;
   background-size: 150%;
   left: 40%;

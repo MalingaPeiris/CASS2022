@@ -84,3 +84,7 @@
   height: 70px;
 }
 
+.login-modal {
+  z-index: 9999;
+}
+

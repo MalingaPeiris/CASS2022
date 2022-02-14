@@ -75,10 +75,9 @@
   opacity: 1;
   border-radius: 5px;
   filter: brightness(100%);
-  padding: 2%;
-  margin-right: 10px;
-  margin-left: 10px;
+  padding: 10px;
   padding-bottom: 50px;
+  height: 100%;
 }
 
 .registerHeading {
@@ -151,6 +150,7 @@
 .regMemberCheckDiv {
   background: rgba(255,255,255,0.5);
   margin-top: 30px;
+  height: 40px;
 }
 
 @media (max-width: 576px) {
@@ -170,7 +170,6 @@
   color: #63595c;
   text-align: center;
   padding-right: 25px;
-  max-width: 400px;
   width: 100%;
   font-family: Montserrat, sans-serif;
   font-weight: bold;
@@ -178,6 +177,7 @@
   font-size: 14px;
   text-align: left;
   border: 1px solid rgba(134,129,128,0.16) ;
+  border-radius: 0px;
 }
 
 @media (max-width: 576px) {
@@ -492,10 +492,22 @@
   border: 2px solid #ffffff ;
 }
 
+@media (max-width: 540px) {
+  .loginPassword {
+    max-width: 400px;
+    width: 100%;
+    min-width: 260px;
+    border: 2px solid rgb(255,255,255) ;
+    text-align: left;
+    font-family: Montserrat, sans-serif;
+    color: #63595c;
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
+
 .loginPassword {
-  max-width: 400px;
-  width: 100%;
-  min-width: 280px;
+  width: 250px;
   border: 2px solid rgb(255,255,255) ;
   text-align: left;
   font-family: Montserrat, sans-serif;
@@ -509,15 +521,16 @@
 }
 
 #loginButton {
-  background: rgba(33,98,73,0.5);
+  background: rgba(47,167,180,0.5);
+  color: #004065;
 }
 
 .registerLink {
   color: #ffffff;
   font-family: Montserrat, sans-serif;
-  text-align: right;
-  margin-top: 20px;
+  margin-top: 60px;
   font-size: 14px;
+  text-align: center;
 }
 
 .registerLink:hover {
@@ -621,11 +634,11 @@
 
 .orgLetterDiv {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   min-width: 280px;
   border-radius: 5px;
   border: 2px solid #2fa7b4 ;
-  margin-bottom: 50px;
+  padding: 20px;
 }
 
 .orgLetterHeading {
@@ -650,6 +663,7 @@
   margin-top: 3%;
   box-shadow: 8px 13px 25px #D9D9D982;
   margin-right: 5%;
+  border-radius: 10px;
 }
 
 @media (max-width: 576px) {
@@ -819,5 +833,21 @@ html {
 
 #termsDiv {
   margin-bottom: 0px;
+}
+
+.modal-body {
+  position: relative;
+  -ms-flex: 1 1 auto;
+  flex: 1 1 auto;
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.modal-header {
+  background: repeating-linear-gradient(-43deg, #2fa7b4 -322%, #004065 -159%, rgb(255,255,255), #004065, #2fa7b4);
+}
+
+.modal-heading {
+  color: #fff;
 }
 
