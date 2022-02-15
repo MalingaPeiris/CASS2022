@@ -9,7 +9,7 @@
   max-width: 520px;
   min-width: 320px;
   width: 100%;
-  padding: 20px;
+  padding: 15px;
   border-radius: 10px;
   border: 2px solid #004065 ;
 }
@@ -190,5 +190,15 @@ input {
 
 .register-input-2 {
   width: 45%;
+}
+
+.login-password {
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  #login-div {
+    margin-top: 25%;
+  }
 }
 
