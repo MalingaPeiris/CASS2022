@@ -126,7 +126,7 @@
 
 .sliderSessionImg {
   width: 250px;
-  object-fit: contain;
+  object-fit: cover;
   margin-bottom: 20px;
   box-shadow: 8px 13px 25px #D9D9D982;
 }

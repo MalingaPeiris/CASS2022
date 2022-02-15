@@ -69,10 +69,16 @@
   margin-bottom: 10px;
 }
 
-#webcast {
+#webcasts {
   font-size: 16px;
   color: #004065;
   margin-top: -10px;
+}
+
+#webcast {
+  font-size: 16px;
+  color: #004065;
+  margin-top: 100px;
 }
 
 .investmentCategoryDiv {
@@ -155,7 +161,7 @@
 
 .calDiv:hover {
   padding: 30px;
-  background: rgba(65,187,24,0.3);
+  background: rgba(47,167,180,0.5);
   box-shadow: 8px 13px 25px #D9D9D982;
   display: flex;
   align-items: center;
