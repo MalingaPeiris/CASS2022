@@ -51,9 +51,11 @@
   }
 }
 
-.bbt:hover {
-  cursor: pointer;
-  animation: move .2s linear infinite;
+@media (min-width: 1200px) {
+  .bbt:hover {
+    cursor: pointer;
+    animation: move .2s linear infinite;
+  }
 }
 
 @keyframes move {
