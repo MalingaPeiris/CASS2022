@@ -568,13 +568,23 @@
 }
 
 .organizersHeading {
-  margin-top: 52px;
   font-size: 30px;
   font-weight: bold;
   line-height: 32px;
   color: #868180;
   font-family: Montserrat, sans-serif;
   margin-top: 200px;
+}
+
+@media (max-width: 540px) {
+  .organizersHeading {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 32px;
+    color: #868180;
+    font-family: Montserrat, sans-serif;
+    margin-top: 40px;
+  }
 }
 
 .organizerHr {
@@ -801,6 +811,12 @@ html {
 
 #internationalMessages {
   margin-top: 100px;
+}
+
+@media (max-width: 540px) {
+  #internationalMessages {
+    margin-top: 10px;
+  }
 }
 
 #termsCheckPara {

@@ -196,6 +196,13 @@
   padding-top: 200px;
 }
 
+@media (max-width: 540px) {
+  .speakersContainer {
+    margin-bottom: 30px;
+    padding-top: 50px;
+  }
+}
+
 .speakerHeading {
   font-family: Montserrat, sans-serif;
   font-weight: bold;

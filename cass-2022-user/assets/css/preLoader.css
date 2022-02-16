@@ -9,6 +9,8 @@
   background-color: black;
   transition: all 1 ease;
   z-index: 99999999999;
+  pointer-events: none;
+  animation-duration: 3s;
 }
 
 .preLoaderImg {

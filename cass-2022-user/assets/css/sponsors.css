@@ -3,6 +3,13 @@
   margin-bottom: 100px;
 }
 
+@media (max-width: 540px) {
+  #sponsors {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
 .sponsorImage {
   max-width: 1200px;
   min-width: 280px;

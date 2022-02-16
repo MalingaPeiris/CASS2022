@@ -6,6 +6,16 @@
   padding-top: 200px;
 }
 
+@media (max-width: 540px) {
+  .wwaBlock {
+    max-width: 1920px;
+    min-width: 320px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+}
+
 .wwaContainer {
   max-width: 1920px;
   min-width: 320px;

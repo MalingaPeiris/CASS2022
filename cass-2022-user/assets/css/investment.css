@@ -3,6 +3,13 @@
   font-size: 50px;
 }
 
+@media (max-width: 540px) {
+  .investmentHeading {
+    color: #63595c;
+    font-size: 30px;
+  }
+}
+
 .investmentContainer {
   padding-top: 100px;
 }
@@ -110,6 +117,13 @@
 .investmentBlock {
   margin-bottom: 200px;
   margin-top: 100px;
+}
+
+@media (max-width: 540px) {
+  .investmentBlock {
+    margin-bottom: 20px;
+    margin-top: 10px;
+  }
 }
 
 .investmentRegCol {

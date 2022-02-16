@@ -85,6 +85,21 @@
   animation: change 0.1s infinite alternate;
 }
 
+@media (max-width: 540px) {
+  .eventRegContainer {
+    background: repeating-linear-gradient(-43deg, #2fa7b4 -322%, #004065 -159%, rgb(255,255,255), #004065, #2fa7b4);
+    padding: 3%;
+    margin-top: 10px;
+    border-radius: 5px;
+    opacity: 1;
+    margin-bottom: 40px;
+    box-shadow: 8px 13px 25px #D9D9D982;
+    position: relative;
+    background-size: 200%;
+    animation: change 0.1s infinite alternate;
+  }
+}
+
 @keyframes change {
   0% {
     background-position: left;

@@ -3,6 +3,13 @@
   margin-bottom: 200px;
 }
 
+@media (max-width: 540px) {
+  .wysjBlock {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
+
 .wysjCol1 {
   color: rgb(255,255,255);
   background: #004065;

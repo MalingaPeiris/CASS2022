@@ -3,6 +3,13 @@
   padding-top: 200px;
 }
 
+@media (max-width: 540px) {
+  .agendaContainer {
+    margin-top: 50px;
+    padding-top: 20px;
+  }
+}
+
 .agendaMainHeading {
   color: #434343;
   font-size: 30px;
@@ -25,6 +32,21 @@
   padding-bottom: 40px;
   padding-right: 5%;
   padding-left: 5%;
+}
+
+@media (max-width: 540px) {
+  .agendaMainDiv {
+    max-width: 1110px;
+    min-width: 280px;
+    width: 100%;
+    padding-top: 40px;
+    background: #f7f7f7;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding-bottom: 40px;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
 }
 
 .agendaDateHeading {
